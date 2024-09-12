@@ -1,0 +1,97 @@
+/* Basic reset for body and HTML */
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    color: #333;
+}
+
+body {
+    background-color: #fef5f8; /* Light baby pink background */
+    color: #4a4a4a;
+}
+
+h1 {
+    color: #a15d92; /* Light purple for the main header */
+    text-align: center;
+    padding: 20px;
+    margin: 0;
+    background-color: #f6d7e2; /* Very light baby pink background for header */
+}
+
+hr {
+    border: 0;
+    height: 2px;
+    background-color: #a15d92; /* Light purple for the horizontal rule */
+}
+
+h2, h3 {
+    color: #9b77d8; /* Light purple for sub-headers */
+    border-bottom: 2px solid #d9a1c7; /* Light pink underline for h2 and h3 */
+    padding-bottom: 10px;
+}
+
+p {
+    line-height: 1.6;
+}
+
+ul, ol {
+    padding-left: 20px;
+}
+
+ul li {
+    margin-bottom: 10px;
+}
+
+ol li {
+    margin-bottom: 10px;
+}
+
+a {
+    color: #00bcd4; /* Cyan color for links */
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+
+th, td {
+    padding: 10px;
+    text-align: center;
+}
+
+th h4 {
+    margin: 0;
+    color: #9b77d8; /* Light purple for table headers */
+}
+
+td img {
+    width: 50px; /* Fixed width for images */
+    height: 50px; /* Fixed height for images */
+    object-fit: cover; /* Ensures the image covers the set dimensions */
+    vertical-align: middle;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+main {
+    padding: 20px;
+}
+
+div {
+    background-color: #ffffff; /* White background for sections */
+    border: 1px solid #d9a1c7; /* Light pink border */
+    border-radius: 8px;
+    margin-bottom: 20px;
+    padding: 20px;
+}
